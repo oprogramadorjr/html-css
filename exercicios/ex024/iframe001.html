@@ -5,9 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
 </head>
+<!-- CSS é soberano, ou seja o que for feito aqui vai mudar o codigo, por mais que tenha sido feito diretamente no codigo -->
+<style>
+    iframe{
+        width: 500px;
+        height: 500px;
+        border: 1px solid black
+    }
+</style>
 <body>
-    <h1>Testando o uso de iframe</h1>
-    <p>Acessando o site do <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe> para aprender a programar. Nesse caso a uma proteção do site para o uso do iframe.</p> 
 
+    <!-- Tamanho Padrão 300x150 -->
+    <h1>Testando o uso de iframe</h1>
+    <p>Acessando o site do 
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" scolling="yes"></iframe> 
+        <a href="https://www.cursoemvideo.com" target="_blank"> cursoemvideo </a>
+        para aprender a programar. Nesse caso a uma proteção do site para o uso do iframe.</p> 
+
+    <p> O repositório  do Guanabara 
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500"></iframe>
+        <a href="https://gustavoguanabara.github.io"> no GtiHub</a>
+        também é muito legal!
+
+    </p>
 </body>
 </html>
